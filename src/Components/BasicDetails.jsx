@@ -33,7 +33,7 @@ const BasicDetails = () => {
             <form
               onSubmit={(event) => {
                 formsubmit(event);
-                // navigate('/Taxdetails');
+                navigate('/Taxdetails');
               }}
             >
               <div className="white-bar">
